@@ -1,6 +1,6 @@
-package de.kreth.visitor.objekte;
+package de.kreth.visitor.reisebuero.objekte;
 
-import de.kreth.visitor.Visitor;
+import de.kreth.visitor.reisebuero.Visitor;
 
 public interface Visitable {
 

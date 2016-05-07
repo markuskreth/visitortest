@@ -1,4 +1,4 @@
-package de.kreth.visitor;
+package de.kreth.visitor.reisebuero;
 
 
 public interface Visitor {

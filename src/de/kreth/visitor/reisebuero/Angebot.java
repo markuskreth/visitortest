@@ -1,4 +1,4 @@
-package de.kreth.visitor;
+package de.kreth.visitor.reisebuero;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,14 +10,12 @@ public class Angebot implements Visitor {
    
    @Override
    public void addPreis(double preis) {
-      // TODO Auto-generated method stub
-      
+      this.preis += preis;
    }
 
    @Override
    public void buche(double preis, String name, String bedingung) {
-      // TODO Auto-generated method stub
-      
+      posten.add(name);
    }
 
 }
